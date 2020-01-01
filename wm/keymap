@@ -1,0 +1,8 @@
+super + Return
+	sh -c "st & exit"
+
+super + q	
+	xkill -id $(pfw)
+
+super + d
+ rofi -show run
